@@ -1,0 +1,104 @@
+ /* Custom CSS for responsiveness */
+        .navbar-brand {
+            font-size: clamp(0.8rem, 2vw, 1rem);
+            white-space: normal;
+        }
+
+        .hero-section h1 {
+            font-size: clamp(2rem, 5vw, 3.75rem);
+            line-height: 1.2;
+        }
+
+        .hero-section p {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .services-section {
+            padding: clamp(2rem, 10vw, 6.5rem) 1rem;
+            height: auto;
+        }
+
+        .service-card {
+            margin: 1rem auto;
+            max-width: 400px;
+        }
+
+        .section-title {
+            font-size: clamp(1.5rem, 4vw, 3.5rem);
+        }
+
+        .section-subtitle {
+            font-size: clamp(1rem, 2vw, 1.5rem);
+        }
+
+        .contact-form-col {
+            padding: 2rem;
+            border-radius: 20px;
+        }
+
+        .form-control {
+            width: 100% !important;
+        }
+
+        .message-box {
+            width: 100% !important;
+        }
+
+        .partner-logos {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .partner-logos img {
+            max-width: 100px;
+            height: auto;
+            margin: 0.5rem;
+        }
+
+        .staff-img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                padding-top: 1rem;
+            }
+
+            .hero-img-col {
+                order: -1;
+                margin-bottom: 2rem;
+            }
+
+            .contact-info-col {
+                margin-bottom: 2rem;
+            }
+
+            .footer-column {
+                margin-bottom: 2rem;
+            }
+
+            .staff-col {
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-item {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            .btn-responsive {
+                width: 100% !important;
+                margin-bottom: 0.5rem;
+            }
+
+            .checkbox-options {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
